@@ -43,7 +43,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url('background_projetos.jpg');
+    background: linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url('Imagens/background_contato.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,16 +54,18 @@ nav li a:hover{
 }
 .texto .titulo{
     color: #fff;
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 450;
+    width: fit-content;
+    height: 500;
 }
 .texto .sub_titulo{
     color: #fff;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 450;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    height: 500px;
+   
+ 
 }
 .texto .botoes{
     margin-top: 30px;
@@ -105,18 +107,4 @@ border: 2px solid white;
     100%{
         transform: scale(1);
     }
-}
-footer{
-    text-decoration: none;
-    color: rgb(19, 17, 17);
-    font-size: 25px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-    background-color: #18929d;
-}
-footer h1{
-    color: #fff;
-    font-size: 30px;
 }
