@@ -43,7 +43,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url('Imagens/background_home.jpg');
+    background: linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url('background_home.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
