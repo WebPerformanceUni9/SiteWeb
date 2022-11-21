@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
  
 *{
@@ -60,8 +59,10 @@ nav li a:hover{
 }
 .texto .sub_titulo{
     color: #fff;
-    font-size: 58px;
+    font-size: 25px;
     font-weight: 600;
+    width: auto;
+    height: 500px;
 }
 .texto .botoes{
     margin-top: 30px;
@@ -104,3 +105,4 @@ border: 2px solid white;
         transform: scale(1);
     }
 }
+
