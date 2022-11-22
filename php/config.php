@@ -1,19 +1,19 @@
 <?php
+    $host= 'localhost';
+    $usuario= 'root';
+    $senha= '';
+    $dbname= 'web_performance';
 
-    $dbHost = 'localhost';
-    $dbUsername = 'root';
-    $dbPassword = '';
-    $dbName = 'webperfomance';
+    $conexao = new mysqli($host,$usuario,$senha,$dbname);
 
-    $con = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
-
-    if($con->connect_errno)
+    /*
+    if($conexao->connect_errno)
     {
-        echo "Erro.";
+        echo "Erro";
     }
     else
     {
         echo "OK.";
     }
-
+    */
 ?>
