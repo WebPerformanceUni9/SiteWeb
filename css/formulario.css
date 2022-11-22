@@ -55,7 +55,7 @@ nav li a:hover{
 
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
-    background-image: linear-gradient(to right, #18929d, rgb(240, 241, 233));
+    background-color: #88edf7
   }
   .box {
     color: white;
@@ -185,6 +185,44 @@ footer{
   
 }
 #submit:hover{
+  background-color: #052427;
+}
+
+.card {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #18929d;
+  padding: 20px;
+  border-radius: 20px;
+  width: 20%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.541);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+#button{
+  background-color: #0b575e;
+  width: 60%;
+  border: none;
+  padding: 15px 5px 15px 5px;
+  margin: 8px;
+  margin-top: 40px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+#button:hover{
   background-color: #052427;
 }
   
